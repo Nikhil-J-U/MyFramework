@@ -27,7 +27,7 @@ public class AccountsPageTest extends BaseTest{
 ////	public void accPageHeaderTest() {
 ////		String header = accountsPage.getAccountsPageHeader();
 ////		System.out.println("acc page header is: "+header);
-////		Assert.assertEquals(header, Constants.ACCOUNTS_PAGE_HEADER);
+//		Assert.assertEquals(header, Constants.ACCOUNTS_PAGE_HEADER, Errors.ACC_PAGE_HEADER_NOT_ERROR_MSG);
 ////	}
 	
 	@Test (priority = 3)
