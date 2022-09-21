@@ -27,7 +27,7 @@ public class LoginPage {
 	
 	
 	//4. actions
-	@Step("getting login page tite...")
+	@Step("getting login page tite value...")
 	public String getLoginPageTitle() {
 		return eleUtil.doGetTitleWithFraction(Constants.LOGIN_PAGE_TITLE, Constants.DEFAULT_TIME_OUT);
 	}
