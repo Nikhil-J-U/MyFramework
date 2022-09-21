@@ -24,7 +24,7 @@ public class LoginPageTest extends BaseTest{
 	public void loginPageTitleTest() {
 		String actTitle = loginPage.getLoginPageTitle();
 		System.out.println("page title: "+actTitle);
-		Assert.assertEquals(actTitle, Constants.LOGIN_PAGE_TITLE);
+		Assert.assertEquals(actTitle, Constants.LOGIN_PAGE_TITLE,".....login page title is not correct.....");
 	}
 	
 	@Description("login page URL test")
