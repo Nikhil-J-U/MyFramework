@@ -1,5 +1,4 @@
 package com.qa.opencart.listeners;
-import io.qameta.allure.Attachment;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -8,6 +7,8 @@ import org.testng.ITestListener;
 import org.testng.ITestResult;
 
 import com.qa.opencart.factory.DriverFactory;
+
+import io.qameta.allure.Attachment;
 
 
 public class TestAllureListener extends DriverFactory implements ITestListener {
